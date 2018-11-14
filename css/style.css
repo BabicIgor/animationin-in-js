@@ -1,0 +1,47 @@
+.w-container {
+  max-width: 1170px;
+}
+
+body {
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+
+@media (min-height: 900px) {
+  .hp_vh-based {
+    font-size: 27px;
+    line-height: 36px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hp_main-heading,
+  .hp_build-custom-heading {
+    font-size: 110.4px;
+    margin-right: 28.8px;
+    letter-spacing: -2.4px;
+  }
+  .hp_main-heading.cc-first {
+    margin-left: -7.2px;
+  }
+  
+}
+
+.cc-sticky,
+.cc-more {
+  position: -webkit-sticky !important;
+  position: sticky !important;
+}
+
+@media (max-width: 767px) {
+  .section.cc-sticky.cc-timeline {
+    position: relative !important;
+    position: relative !important;
+  }
+}
+
+.h_form,
+.h_input,
+.h_button {
+  -webkit-appearance: none;
+}
